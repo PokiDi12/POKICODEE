@@ -1,0 +1,19 @@
+.abautus {
+    padding: 100px;
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    &__title {
+        margin: 0 0 25px 0;
+    }
+
+    &__descriptions {
+        max-width: 550px;
+        margin: 0 auto;
+        color: rgb(87, 87, 87);
+        text-align: center;
+    }
+}
