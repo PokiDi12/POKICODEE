@@ -1,28 +1,35 @@
 .projects {
     &__content {
         display: flex;
-        @include margin(0, 113px, 100px, 113px);
+        @include margin(80px, 0px, 113px, 0);
         align-items: center;
         justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap;
     }
 
     &__box {
-        @include margin(0, 10px, 0, 10px);
+        @include margin(20px, 10px, 0, 10px);
         background: #FFFFFF;
         box-shadow: 0px 0px 38px 3px rgba(0, 0, 0, 0.14);
         border-radius: 5px;
+
     }
 
     &__descriptions {
         @include font(400, 12px, #000000);
         width: 217px;
-    }
-    &__questions{
+        margin-left: 10px;
         display: flex;
     }
 
+    &__questions {
+        display: flex;
+        justify-content: center;
+    }
+
     &__title {
-        @include margin(34px, 0, 0, 0)
+        @include margin (34px, 0, 0, 0)
     }
 
 
@@ -32,8 +39,8 @@
         text-align: center;
 
         &--wrapper {
-            @include margin(36px, 0, 0, 0);
-             display: flex;
+            @include margin (0, 0, 0, 0);
+            display: flex;
             align-items: center;
             justify-content: center;
 
@@ -58,7 +65,7 @@
     }
 
     &__title-title {
-        @include margin(10px, 0, 0, 0);
+        @include margin (10px, 0, 0, 0);
         justify-content: center;
         align-items: center;
         justify-content: space-between;
@@ -66,12 +73,15 @@
     }
 
     &__btn {
-        @include margin(0px, 0, 32px, 0);
+        @include margin (0, 0, 32px, 0);
         display: flex;
         justify-content: space-between;
         text-align: center;
         cursor: pointer;
 
+    }
+    &__questions{
+        margin-top: 50px;
     }
 
     &__info {
